@@ -1,5 +1,5 @@
 public class Sepeda extends Kendaraan {
-    private String jenisSepeda; // Contoh: BMX, Balap
+    private String jenisSepeda; 
 
     public Sepeda(String merk, String model, int tahunProduksi, String jenisSepeda) {
         super(merk, model, tahunProduksi);
