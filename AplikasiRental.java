@@ -17,10 +17,7 @@ public class AplikasiRental {
         // 3. Proses Penyewaan
         System.out.println("\n=== DAFTAR PENYEWA ===");
         ArrayList<Penyewa> daftarPenyewa = new ArrayList<>();
-        
-        // Budi menyewa Mobil Avanza (kendaraan index 0)
         daftarPenyewa.add(new Penyewa("Budi", daftarKendaraan.get(0)));
-        // Ani menyewa Sepeda Polygon (kendaraan index 2)
         daftarPenyewa.add(new Penyewa("Ani", daftarKendaraan.get(2)));
 
         // 4. Menampilkan daftar penyewa
